@@ -1,10 +1,31 @@
+![Ironhack Logo](https://i.imgur.com/1QgrNNw.png)
+
 # JS | Koans Lab
 
 ## Koans
 
+![](https://i.imgur.com/9Ug9NBn.png)
+
+```
+Two monks were arguing on top of a hill about a big
+flag in the top of a temple. One monk reflected: 
+
+> "The flag is moving" 
+
+The other, thought for a while and said:
+
+> "The wind is moving.". 
+
+The sixth patriarch happened to be passing by.
+
+He told them: 
+
+> "Not the wind, not the flag; The mind is moving."
+```
+
 ### What are the Koans?
 
-Koans originate from Zen Buddhism, and are paradoxical riddles or stories used to test "students" on their path to enlightenment. They are designed to provoke thought or doubt in the student's mind. We are here to learn coding, so... what are the Koans?
+[Koans](https://en.wikipedia.org/wiki/K%C5%8Dan) (公案) originate from Zen Buddhism, and are paradoxical riddles or stories used to test "students" on their path to enlightenment. They are designed to provoke thought or doubt in the student's mind. We are here to learn coding, so... what are the Koans?
 
 The Koans are a series of assertions you must solve to understand how a programming language works. This is the first step to become a better developer. The Koans become increasingly more difficult as you continue, so don't feel discouraged as you move forward through them.
 
@@ -13,7 +34,7 @@ There are Koans for all the programming languages. We will work with JavaScript 
 - You get an assertion that is not passing a **test**.
 - You have to give the test the correct expected result to pass it.
 
-We are going to test the code assertions through Jasmine. We have introduced here two new concepts: test and Jasmine. Let's see a brief introduction about both of them.
+We are going to test the code assertions through Jasmine. We have introduced here two new concepts: test and [Jasmine](http://jasmine.github.io/). Let's see a brief introduction about both of them.
 
 ## Testing
 
@@ -99,9 +120,9 @@ So, the test `expect(1 == "1").toBeTruthy()` will pass. There is a huge list of 
 
 We will see there are a lot of matchers we can use. Right now we just need the ones described above to do the Koans.
 
-### Execute our tests
+## Requirements
 
-Last, but not least, we need to execute our tests! First of all, fork and clone this repo into your Github account. Once you are done, open the file `SpecRunner.html` with your browser.
+We need to execute our tests. First of all, fork and clone this repo into your Github account. Once you are done, open the file `SpecRunner.html` with your browser.
 
 At the beginning you will see all the tests in green. This is because the tests we have to implement are commented.
 
